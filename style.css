@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    background-image: url(tree-alone-dark-evening-4k.jpeg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    margin-top: 100px;
+    border: 3px solid whitesmoke;
+    border-radius: 80px;
+    width: 90px;
+    padding: 10px;
+}
+
+.div1,
+.div2
+{
+    margin-top: 80px !important;
+    display: inline-block;
+    margin: 20px;
+    background: whitesmoke;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.i_block{
+    display: block;
+}
+
+.i_img{
+    margin-left: 25px;
+}

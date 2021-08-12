@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <title>Maths Quiz</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="download.png">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <script src="main.js"></script>
+</head>
+<body onload="check();">
+    <div class="container">
+        <img src="icons8-people-50.png" alt="Logo" id="logo">
+        <br>
+        <br>
+        <h2 style="color: whitesmoke; margin-top: 40px;">Game LogIn</h2>
+        <div>
+                <div class="div1">
+                <img src="https://img.icons8.com/carbon-copy/100/000000/1-c.png" class="i_block i_img">
+                <label class="i_block">Player 1</label>   
+                <input type="text" id="player1_input" class="i_block" placeholder="Player 1 name">
+            </div>
+
+                <div class="div2">
+                <img src="https://img.icons8.com/carbon-copy/100/000000/2-c.png" class="i_block i_img">
+                <label class="i_block">Player 2</label>   
+                <input type="text" id="player2_input" class="i_block" placeholder="Player 2 name">
+            </div>
+        </div>
+        <button type="submit" class="btn" style="margin-top: 60px; background-color: rgb(225, 125, 102);" onclick="go();">LogIn</button>
+    </div>
+</body>
+</html>

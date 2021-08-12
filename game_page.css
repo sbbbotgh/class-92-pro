@@ -1,0 +1,62 @@
+body{
+    background-image: url(distant-planet-4k-hd-pc-download-wallpaper-preview.png);
+    background-position:top;
+    background-size: cover;
+}
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+    visibility: hidden;
+background: whitesmoke;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+label,
+h1,
+h3,
+h4,
+span{
+    color: rgb(226, 211, 211);
+}
+
+.btn-grad {
+    background: rgb(159,50,73);
+    background: linear-gradient(32deg, rgba(159,50,73,1) 0%, rgba(107,230,130,1) 50%, rgba(70,140,191,1) 100%);}
+.btn-grad{
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+}
+.btn-grad:hover {
+        background-position: right center;
+        /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+    }
+
+#color_1{
+    color: black;
+}
